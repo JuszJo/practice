@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Helvetica;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(230, 92, 0);
+    font-size: 1rem;
+}
+ul{
+    list-style-type: none;
+}
+
+#wholepage{
+}
+#onewrap{
+    background-color: rgba(233, 233, 233, 0.89);
+
+}
+#onesect{
+    position: relative;
+}
+#onesectheadwrap{
+    height: 10%;
+    margin: 0 50px 0;
+}
+#onesecthead{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#upleft{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(230, 92, 0);
+}
+#upmiddle{
+    display: flex;
+}
+#upright{
+    display: flex;
+    align-items: center;
+}
+.logsign{
+    color: aliceblue;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgb(230, 92, 0);
+    margin: 0 10px;
+    padding: 7px 17px;
+}
+#log{
+    color: rgb(230, 92, 0);
+    background-color: rgba(255, 228, 228, 0.911);
+}
+#home{
+    color: rgb(230, 92, 0);
+}
+.onesecthead ul{
+    height: 35px;
+    list-style-type: none;
+}
+.tab{
+    margin: 0 20px;
+    color: black;
+}
+.tab2:hover{
+    color: rgb(230, 92, 0);
+}
+.tab, .calltoact, .logsign, .hardflexgap, .plans{
+    transition: ease-in-out 0.25s;
+}
+.tab:hover, .calltoact:hover, .logsign:hover, .hardflexgap:hover, .plans:hover{
+    transform: scale(1.015);
+    cursor: pointer;
+}
+#onesectbodycont{
+    height: 90%;
+    position: relative;
+}
+
+#onesectbodywrap{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    margin: 90px 0;
+}
+#onesectbody{
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+}
+#onesectbodyh1{
+    font-size: 70px;
+}
+#onesectbodyp{
+    font-size: 25px;
+    line-height: 39px;
+}
+#oneclassdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.oneclass{
+    margin: 25px;
+}
+.oneclass2{
+    display: block;
+    margin: 30px;
+}
+.calltoact{
+    margin: 10px;
+    color: aliceblue;
+    font-size: 1rem;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(230, 92, 0);
+    border-style: none;
+    cursor: pointer;
+    /*transition: 0.2s;*/
+}
+#exp1{
+    
+}
+#exp{
+    color: rgb(230, 92, 0);
+    background-color: rgba(255, 228, 228, 0.911);   
+}
+/*.calltoact:hover{
+    transform: scale(1.05);
+}*/
+#sectorangewrap{
+    background-color: rgb(230, 92, 0);
+}
+#test{
+    flex-direction: column;
+}
+
+#sectorange{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    gap: 50px;
+}
+.nextsect{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+}
+.spancl{
+    display: block;
+    max-width: 300px;
+}
+.nextseecth1{
+    font-size: 3rem;
+}
+.nextseecth2{
+    padding-top: 8px;
+    line-height: 2rem;
+}
+.nextsecthead{
+    font-size: 1.5rem;
+}
+.nextsect a{
+    color: white;
+}
+.nextsectref{
+    display: inline-block;
+    transition: all ease-in-out 0.25s;
+    border-radius: 3px;
+    padding: 7px;
+}
+.nextsectref:hover{
+    background-color: white;
+    color: rgb(230, 92, 0);
+}
+#hardwrap{
+    width: 100%;
+    position: absolute;
+    margin-top: 700px;
+}
+#hardflex{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.hardflexgap{
+    background-color: white;
+    background-image: url("task.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 390px;
+    width: 280px;
+}
+#threesectwrap{
+    background-color: rgba(233, 233, 233, 0.89);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#threesect{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    gap: 50px;
+}
+#why{
+    text-align: center;
+    flex-direction: column;
+}
+#why p{
+    color: rgb(230, 92, 0);
+}
+
+#asplit{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.asplitgap{
+    max-width: 300px;   
+}
+#price{
+    text-align: center;
+    flex-direction: column;
+}
+.hid{
+}
+#planswrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.planch{
+}
+.plans{
+    background-color: white;
+    flex-shrink: 0;
+    height: 490px;
+    width: 370px;
+    border-radius: 6px;
+    box-shadow: 0 5px 20px rgb(172, 172, 172);
+    background-image: url("moon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#afterplanwrap{
+}
+.aftersect{
+}
+.aftersect2{
+    margin: 150px 0;
+}
+.aftersect div, .aftersect2 div{
+    line-height: 2.5rem;
+}
+.afterdiv{
+    width: 100%;
+}
+.one{
+    background-color: rgb(230, 92, 0);
+}
+.two{
+    background-color: rgb(241, 95, 28);
+}
+.test{
+    max-width: 500px;
+    color: white;
+    font-size: 1.3rem;
+}
+.lorem{
+    text-align: left;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+.beforefooter{
+    background-color: rgba(233, 233, 233, 0.89);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 50px 0;
+}
+.beforefooterheader{
+    margin: 30px 0;
+}
+.beforefooterwrap{
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+.beforefooteritems{
+}
+.fuk{
+    background-color: rgb(59, 57, 57);
+}
+footer{
+    display: flex;
+    gap: 150px;
+}
+
+footer ul{
+    padding: 100px 0;
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+footer li{
+    opacity: 0.5;
+}
+.lihead{
+    opacity: 1;
+    font-size: 1.3rem;
+}
+.final{
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+.final section{
+    padding: 20px 0;
+    justify-content: space-around;
+    gap: 400px;
+}
+.mobreshead ul{
+  transition: all ease-in-out 0.5s;
+  height: 0;
+  overflow: hidden;
+  gap: 50px;
+  position: absolute;
+  /*background-color: rgb(133, 133, 133);*/
+}
+.mobreshead li{
+    padding: 20px 0;
+    /*margin: 20px 0;*/
+}
+.mobreshead button{
+    display: none;
+}
+.suprise{
+    display: block;
+}
+.suprise li{
+    
+}
+
+@media screen and (max-width: 1200px){
+    #sectorange{
+        display: block;
+    }
+    .nextsect{
+        padding: 20px 0;
+    }
+    .spancl{
+        max-width: 500px;
+    }
+    #sectorange{
+        padding-bottom: 100px;
+    }
+    #hardwrap{
+        display: none;
+    }
+    #hardflex{
+        flex-wrap: wrap;
+    }
+    .hardflexgap{
+    }
+    #threesectwrap{
+        padding: 0;
+        margin: 50px 0;
+    }
+    #threesect{
+        margin-top: 0;
+    }
+    #asplit{
+        flex-direction: column;
+        align-items: center;
+    }
+    .asplitgap{
+        max-width: 350px;
+        margin: 40px;
+    }
+    .hid{
+        display: flex;
+        justify-content: center;
+        padding: 0 20px 0;
+    }
+    #planswrap{
+        width: 400px;
+        justify-content: flex-start;
+        gap: 10px;
+        overflow: scroll;
+    }
+    .plans{
+        margin: 10px;
+        width: 300px;
+    }
+    #planswrap::-webkit-scrollbar{
+        display: none;
+    }
+    .aftersect{
+        flex-direction: column;
+    }
+    .aftersect2{
+        margin: 150px 50px;
+    }
+    .test {
+        max-width: 900px;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+    .lihead{
+    }
+    .final section{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+}   
+@media screen and (max-width: 1000px){
+    #onesectheadwrap{
+
+    }
+    #onesectbodywrap{
+        margin: 20px 0;
+    }
+    .mobreshead button{
+        display: inline-block;
+    }
+    .mobreshead .suprise{
+        height: 296px;
+        z-index: 1;
+    }
+    .mobreshead li{
+        display: block;
+    }
+    .mobreshead a{
+        margin: 0;
+    }
+    #onesectheadwrap{
+        margin-left: 15px;
+    }
+    #onesecthead{
+        display: none;
+    }
+}
